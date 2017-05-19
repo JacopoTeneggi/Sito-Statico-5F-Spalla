@@ -18,5 +18,8 @@
     "gulp-pug": "^3.3.0",
     "gulp-uglify": "^2.1.2",
     "imagemin-pngquant": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
