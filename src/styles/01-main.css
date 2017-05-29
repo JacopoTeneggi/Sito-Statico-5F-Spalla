@@ -10,3 +10,51 @@ footer {
 #logo {
   max-height: 30px;
 }
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.horizontal-center {
+  min-width: 100%;
+  min-width: 100vh;
+  text-align: center;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: white;
+  font-size: 78px;
+  border-bottom: 2px solid white;
+}
+
+.title-container {
+  position: relative;
+}
+
+.background-gradient {
+  height: 768px;
+  background: linear-gradient(245deg, #feac5e, #c779d0, #4bc0c8, #92fe9d, #ffe47a);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
