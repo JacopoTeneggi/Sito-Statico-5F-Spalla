@@ -1,0 +1,13 @@
+#first-section {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 75px;
+    left: 50%;
+    background-color: #ffffff; /** Change This Value ***/
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+}
