@@ -10,5 +10,4 @@
     -ms-transform:  translateX(-50%) rotate(45deg);
     -webkit-transform:  translateX(-50%) rotate(45deg);
     transform:  translateX(-50%) rotate(45deg);
-    z-index: -1;
 }
