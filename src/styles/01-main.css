@@ -30,27 +30,53 @@ footer {
   margin-bottom: 0;
 }
 
-.title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  color: white;
-  font-size: 78px;
-  border-bottom: 2px solid white;
-}
-
-.title-container {
-  position: relative;
+.btn-primary-outline {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
 }
 
 .background-gradient {
+  margin-bottom: 0;
   height: 768px;
   background: linear-gradient(245deg, #feac5e, #c779d0, #4bc0c8, #92fe9d, #ffe47a);
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 20s ease infinite;
   animation: AnimationName 20s ease infinite;
+}
+
+.divi {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -ms-transform: translateY(-110%) translateX(-50%) rotate(45deg);
+    -webkit-transform:  translateY(-110%) translateX(-50%) rotate(45deg);
+    transform:  translateY(-110%) translateX(-50%) rotate(45deg);
+}
+
+.quote {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.int-icon {
+  width: 5vw;
+  height: 5vh;
+  padding-bottom: 5px;
+}
+
+.int-title {
+  color: white;
+}
+
+#int-container {
+  padding: 20px;
 }
 
 @keyframes AnimationName {

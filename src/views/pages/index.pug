@@ -4,16 +4,72 @@ block head
   title Home
 
 block content
-  .jumbotron.lato.background-gradient.vertical-center
+  .jumbotron.background-gradient.vertical-center
     .container.horizontal-center.vertical-center
       .container.title-container
-        .lead.title MULTIPLE INTELLIGENCES
-  .section
-    #first-section
+        .title-container
+          .lato.title MULTIPLE
+          .lato.title INTELLIGENCES
+          hr.title-hr
+          .container#int-container
+            .row
+              .col-sm-4
+                img.int-icon(src='./images/linguistic.svg')
+                p.lead.int-title LINGUISTIC
+              .col-sm-4
+                img.int-icon(src='./images/musical.svg')
+                p.lead.int-title MUSICAL
+              .col-sm-4
+                img.int-icon(src='./images/logical.svg')
+                p.lead.int-title LOGICAL
+            .row
+              .col-sm-4.offset-sm-2
+                img.int-icon(src='./images/spatial.svg')
+                p.lead.int-title SPATIAL
+              .col-sm-4.offset-sm-2
+                img.int-icon(src='./images/kinesthetic.svg')
+                p.lead.int-title KINESTHETIC
+          a(href='#first-section')
+            i.fa.fa-angle-double-down.fa-5x.title-icon
+  .section#first-section
+    .row
+      h1.lato.fs-title Section Title
+      .col-sm-4
+        img.collapsable.img-responsive(src='./images/01-02.svg')
+        button.btn-primary-outline(data-toggle='collapse' data-target='#fs-collapse')
+          p.lead.fs-lead - FRAGMENTATION -
+      .col-sm-4
+        img.collapsable.img-responsive(src='./images/01-01.svg')
+        button.btn-primary-outline(data-toggle='collapse' data-target='#nd-collapse')
+          p.lead.fs-lead - UNIFICATION -
+      .col-sm-4
+        img.collapsable.img-responsive(src='./images/01-03.svg')
+        button.btn-primary-outline(data-toggle='collapse' data-target='#rd-collapse')
+          p.lead.fs-lead - DIFFERENTIATION -
+  .section.collapse.first-collapse#fs-collapse
     .row
       .col-sm-4
-        img.img-responsive(src='./images/01-01.svg')
+        .divi.first-collapse
+    .row
+      .col-sm-6
+        h1.quote "Blablabla" - Giacomo Leopardi
+      .col-sm-6
+        img(src='./images/leopardi.png')
+  .section.collapse.second-collapse#nd-collapse
+    .row
       .col-sm-4
-        img.img-responsive(src='./images/01-02.svg')
-      .col-sm-4 C
-    
+      .col-sm-4
+        .divi.second-collapse
+    .row
+      .col-sm-6
+        h1.lato "L'uomo non può trascorrere immediatamente dal SENTIRE al PENSARE; deve fare un passo indietro, perchè solo in quanto viene soppressa una determinazione può subentrare la determinazione opposta"
+      .col-sm-6
+        img(src='./images/schiller.png')
+  .section.collapse.third-collapse#rd-collapse
+    .row
+      .col-sm-4
+      .col-sm-4
+      .col-sm-4
+        .divi.third-collapse
+    .row
+      h1.lato CIAO 3

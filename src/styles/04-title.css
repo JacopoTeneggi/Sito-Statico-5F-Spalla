@@ -1,0 +1,27 @@
+.title-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.title {
+  color: white;
+  font-size: 78px;
+}
+
+.title-container {
+  position: relative;
+}
+
+.title-hr {
+  border: 1px solid white;
+  max-width: 20vw;
+}
+
+.title-icon {
+    position: absolute;
+    transform: translateX(-50%);
+    margin-top: 5vh;
+    color: white;
+}
